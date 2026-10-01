@@ -1,0 +1,18 @@
+{
+  "discordToken": "YOUR_BOT_TOKEN",
+  "guildId": "YOUR_SERVER_ID",
+  "googleKeyFile": "./service-account.json",
+  "syncIntervalMinutes": 3,
+  "lookaheadDays": 30,
+  "maxEvents": 80,
+  "calendars": [
+    { 
+        "id": "team_calendar_id@group.calendar.google.com", 
+        "label": "Team" 
+    },
+    {
+        "id": "another_calendar_id@group.calendar.google.com", 
+        "label": "Community" 
+    }
+  ]
+}
